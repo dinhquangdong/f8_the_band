@@ -22,6 +22,7 @@ html {
     z-index: 1;
 }
 
+/*Common*/
 .clear {
     clear: both;
 }
@@ -30,6 +31,30 @@ html {
     color: #fff !important;
 }
 
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.col-three {
+    width: 33.3333%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*Main*/
 #nav {
     display: inline-block;
 }
@@ -168,12 +193,6 @@ html {
     margin-top: 48px;
 }
 
-#content .member-item {
-    float: left;
-    width: calc(100%/3);
-    text-align: center;
-}
-
 #content .member-name {
     font-size: 15px;
 }
@@ -221,13 +240,8 @@ html {
 
 /*Places*/
 .places-list {
-    margin: 32px -8px 48px;
-}
-
-.place-item {
-    float: left;
-    width: 33.3333%;
-    padding: 0 8px;
+    margin-top: 32px;
+    margin-bottom: 48px;
 }
 
 .place-img {
