@@ -6,6 +6,7 @@
     <title>w3_band</title>
     <link rel="icon" href="https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/362236216_2018762901809646_994366792675815008_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeETy3ghGFcO5mrFiQpYsG_0ISfu-FYDpE4hJ-74VgOkTnru1DLxCNhJlcT3VcjlfwrEZnswTIhJKp_ReCON7h0I&_nc_ohc=vf4JIYRYYFwAX9r8xyz&_nc_ht=scontent.fsgn5-5.fna&oh=00_AfDEtNdh5B6dP1RzGjyYOL5DnEEIlN1MjhGZO-cyClMj-w&oe=65E337AF" type="image/x-icon" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="stylesheet" href="assets/fonts/themify-icons/themify-icons.css">
 </head>
 <body>
@@ -18,7 +19,7 @@
                 <li><a href="#tour">TOUR</a></li>
                 <li><a href="#contact">CONTACT</a></li>
                 <li>
-                    <a href="">
+                    <a href="#">
                         MORE
                         <i class="nav-arrow-down ti-angle-down"></i>
                     </a>
@@ -31,11 +32,15 @@
             </ul>
             <!--End: Nav-->
             
-            <!--Begin: Search Button-->
+            <!-- Mobile menu button -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
+
+            <!--Search Button-->
             <div class="search-btn">
                 <i class="search-icon ti-search"></i>
-            </div>
-            <!--End: Search Button-->
+            </div>            
         </div>
 
         <div id="slider">
@@ -53,15 +58,15 @@
                     We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <div class="row members-list">
-                    <div class="col col-three text-center">
+                    <div class="col col-three s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/band/member1.jpg" alt="" class="member-img">
                     </div>
-                    <div class="col col-three text-center">
+                    <div class="col col-three s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/band/member1.jpg" alt="" class="member-img">
                     </div>
-                    <div class="col col-three text-center">
+                    <div class="col col-three s-col-full mt-32 text-center">
                         <p class="member-name">Name</p>
                         <img src="./assets/img/band/member1.jpg" alt="" class="member-img">
                     </div>
@@ -80,31 +85,31 @@
                     </ul>
 
                     <div class="row places-list">
-                        <div class="col col-three">
+                        <div class="col col-three s-col-full mt-16">
                             <img src="./assets/img/places/place1.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
                                 <p class="place-time">Fri 27 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a class="btn js-buy-ticket">Buy Tickets</a>
+                                <a class="btn s-full-width js-buy-ticket">Buy Tickets</a>
                             </div>
                         </div>
-                        <div class="col col-three">
+                        <div class="col col-three s-col-full mt-16">
                             <img src="./assets/img/places/place2.jpg" alt="Paris" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
                                 <p class="place-time">Sat 28 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a class="btn js-buy-ticket">Buy Tickets</a>
+                                <a class="btn s-full-width js-buy-ticket">Buy Tickets</a>
                             </div>
                         </div>
-                        <div class="col col-three">
+                        <div class="col col-three s-col-full mt-16">
                             <img src="./assets/img/places/place3.jpg" alt="San Francisco" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
                                 <p class="place-time">Sun 29 Nov 2016</p>
                                 <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <a class="btn js-buy-ticket">Buy Tickets</a>
+                                <a class="btn s-full-width js-buy-ticket">Buy Tickets</a>
                             </div>
                         </div>
                     </div>
@@ -116,18 +121,18 @@
                 <p class="section-sub-heading">Fan? Drop a note!</p>
 
                 <div class="row contact-content">
-                    <div class="col col-half contact-info">
-                        <p><i class="ti-location-pin"></i>Chicago, US</p>
-                        <p><i class="ti-mobile"></i>Phone: +00 151515</p>
-                        <p><i class="ti-email"></i>Email: dongvangan2509@gmail.com</p>
+                    <div class="col col-half s-col-full contact-info">
+                        <p><i class="ti-location-pin"></i>Ho Chi Minh City, Vietnam</p>
+                        <p><i class="ti-mobile"></i>Phone: <a href="tel:+84975846081">0975846081</a></p>
+                        <p><i class="ti-email"></i>Email: <a href="mailto:dinhquangdong2002@gmail.com">dinhquangdong2002@gmail.com</a></p>
                     </div>
-                    <div class="col col-half contact-form">
+                    <div class="col col-half s-col-full contact-form">
                         <form action="">
                             <div class="row">
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full">
                                     <input type="text" name="" placeholder="Name" required id="" class="form-control">
                                 </div>
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full s-mt-8">
                                     <input type="email" name="" placeholder="Email" required id="" class="form-control">
                                 </div>
                             </div>
@@ -136,7 +141,7 @@
                                     <input type="text" name="" placeholder="Message" required id="" class="form-control">
                                 </div>
                             </div>
-                            <input class="btn mt-16 pull-right" type="submit" value="SEND">
+                            <input class="btn mt-16 pull-right s-full-width" type="submit" value="SEND">
                         </form>
                     </div>
                 </div>
@@ -148,14 +153,14 @@
 
         <div id="footer">
             <div class="socials-list">
-                <a href=""><i class="ti-facebook"></i></a>
-                <a href=""><i class="ti-instagram"></i></a>
-                <a href=""><i class="ti-github"></i></a>
-                <a href=""><i class="ti-facebook"></i></a>
+                <a href="https://www.facebook.com/minhngann0810"><i class="ti-facebook"></i></a>
+                <a href="https://www.instagram.com/_lolimeo?fbclid=IwAR0793fRi2FPKo-nW_Bf_TR4paGqkt-pNn4rF1MI0XOsRYPblo1MoKIAmpY"><i class="ti-instagram"></i></a>
+                <a href="https://github.com/dinhquangdong"><i class="ti-github"></i></a>
+                <a href=""><i class="ti-youtube"></i></a>
                 <a href=""><i class="ti-twitter-alt"></i></a>
                 <a href=""><i class="ti-linkedin"></i></a>
             </div>
-            <p class="copyright">Powered by <a>w3.css</a></p>
+            <p class="copyright">Powered by <a>buidoanminhngan.meow</a></p>
         </div>
     </div>
 
@@ -193,6 +198,38 @@
             </footer>
         </div>
     </div>
+
+    <script>
+        var header = document.getElementById('header');
+        var headerHeight = header.clientHeight;
+        var mobileMenu = document.getElementById('mobile-menu');
+        
+        // Đóng/ mở Mobile menus
+        mobileMenu.onclick = function() {
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed) {
+                header.style.height = 'auto';
+            }
+            else {
+                header.style.height = null;
+            }
+        }
+
+        // Tự động đóng khi chọn menu
+        var menuItems = document.querySelectorAll("#nav li a[href*='#']")
+        for (var i = 0; i<menuItems.length; i++){
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function(event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+
+                if (isParentMenu)
+                    event.preventDefault();
+                else
+                    header.style.height = null;
+            }
+        }
+    </script>
 
     <script>
         const buyBtns = document.querySelectorAll(".js-buy-ticket")
